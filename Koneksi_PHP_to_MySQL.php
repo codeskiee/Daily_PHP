@@ -40,3 +40,12 @@
         ?>
     </body>
 </html>
+
+<!--- CATATAN 
+    Dengan Membuat terlebih dahulu database db_sorak untuk contoh 
+    Cara menjalankan Localhost/PHP-HTML/namafile.php
+    Rumus memanggil database
+            $koneksi = mysqli_connect('localhost','root','root123','nama_db');
+    Rumus memanggil data dari tabel
+            $panggil_db = mysqli_query($koneksi,"SELECT * FROM namatabel");
+        -->
