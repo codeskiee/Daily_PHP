@@ -38,3 +38,15 @@
         </table>
     </body>
 </html>
+
+<!--- CATATAN 
+    Dengan Membuat terlebih dahulu database db_sorak untuk contoh 
+    Cara menjalankan Localhost/PHP-HTML/namafile.php
+    Rumus memanggil database
+            $koneksi = mysqli_connect('localhost','root','root123','nama_db');
+    Rumus memanggil data dari tabel
+            $panggil_db = mysqli_query($koneksi,"SELECT * FROM namatabel");
+    PHP Menyediakan perulangan *while* untuk membantu menampilkan data dari sebuah tabel berapapun jumlahnya.
+    Rumus perulangan while 
+        while ($baris_db = mysqli_fetch_row($panggil_db)) Sebelumnya dibuat terlebih dahulu struktur table dan databasenya
+        -->
